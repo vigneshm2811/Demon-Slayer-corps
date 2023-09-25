@@ -1,0 +1,60 @@
+.bg-img {
+    /* Set your background image */
+    background-image: url(../images/bg-tanjiro.jpg) !important;
+    /* Specify the size and other background properties */
+    background-size: cover;
+    background-position: center;
+    /* Other styles for your element */
+    width: 100%;
+    min-height: 660px; /* Adjust as needed */
+    position: relative;
+  }
+
+  /* Create an overlay element */
+  .bg-img::before {
+    content: "";
+    background-color: rgba(54, 52, 52, 0.705) ; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* You may need to adjust the z-index to control the overlay's stacking order */
+    z-index: 1; /* Adjust as needed */
+  } 
+  .cont {
+    position: relative;
+    z-index: 2; 
+  }
+
+.bgs{
+    background-color: rgba(0, 0, 0, 0.664);  
+}
+.bgs1{
+    background-color: rgba(22, 203, 209, 0.37);  
+}
+a {
+    background: none !important;
+}
+.hh:hover{
+    color: rgba(22, 203, 209, 0.863)!important;
+    /* box-shadow: 2px 2px 11px rgb(22, 203, 209) ; */
+    background:none !important;  
+    border-radius: 12px;
+}
+
+.corps{
+    background-color:rgba(8, 7, 7, 0.747);
+}
+.images{
+    width: 22rem;
+    height: 21rem;
+}
+
+.bt-effect:hover{
+    box-shadow: 4px 4px 12px rgba(17, 213, 219, 0.747) ;
+}
+
+.dm-bg{
+     background-color: #ffa1bd;
+}
