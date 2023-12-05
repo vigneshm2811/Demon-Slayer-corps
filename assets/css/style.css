@@ -28,7 +28,7 @@
   }
 
 .bgs{
-    background-color: rgba(0, 0, 0, 0.664);  
+    background-color: rgba(0, 0, 0, 0.664) ;  
 }
 .bgs1{
     background-color: rgba(22, 203, 209, 0.37);  
@@ -47,7 +47,7 @@ a {
     background-color:rgba(8, 7, 7, 0.747);
 }
 .images{
-    width: 22rem;
+    width: 21rem;
     height: 21rem;
 }
 
@@ -57,4 +57,14 @@ a {
 
 .dm-bg{
      background-color: #ffa1bd;
+}
+.animation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.scroll-animation {
+    opacity: 1;
+    transform: translateY(0);
 }
